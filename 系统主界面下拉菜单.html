@@ -1,0 +1,373 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>广东理工学院新闻</title>
+     <style>
+      *{
+      	margin: 0;
+      	padding: 0;
+      }
+      ul li {
+      	list-style: none;
+      }
+      body{
+      	overflow: scroll;
+
+      }
+       /*header*/
+      .header{
+      	width: 1000px;
+      	height: 100px;
+      	margin: 0 auto;
+      	margin-top: 10px;
+      	margin-bottom: -15px;
+      	/*border: 1px blue solid;*/
+      	background: #00aaff;
+
+      }
+       .header .logo img{
+      	float: left;
+      	width: 300px;
+      	height: 100px;
+      }
+      .header .header-r{
+      	float:right;
+      	width: 200px;
+      	height: 30px;
+      	border: 1px #cccccc solid;
+        margin-top: 30px;
+        margin-right: 50px;
+      }
+      .header .header-r img{
+      	float:right;
+        margin-top: 5px;
+      }
+      .header .header-r span{
+      	line-height: 30px;
+      	text-align: center;
+      	color: #6d6d6d;
+      }
+      /*daohang*/
+      .daohang{
+      	width: 1000px;
+      	height: 50px;
+      	background-color:#ccc;
+     	margin: 0 auto;
+     	text-align:center;
+     	line-height:50px;
+        margin-top: 15px;
+
+      }
+      .daohang ul{
+     	overflow:hidden;
+     }
+     .daohang ul li{
+     	float:left;
+     	width:120px;
+     	height: 50px;
+     	line-height:center;
+     }
+      .daohang ul li a{
+      	font-size: 20px;
+     	display:block;
+     }
+      /*carousel*/
+       .carousel{
+       	position: relative;
+       	width:1000px;
+       	height: 330px;
+       	margin: 0 auto;
+        /*margin-top: -20px;*/
+       }
+       .carouse-main li{
+       	position: absolute;
+       	top:0;
+       	left: 0;
+       	/*display: none;*/
+       }
+       .carouse-main li .current{
+       	display: block;
+       }
+       .carousel li img{
+       	display: block;
+       }
+       .carousel .btn a{
+
+       	position: absolute;
+       	top: 50%;
+       	width: 30px;
+       	height: 80px;
+       	background: rgba(0,0,0,0.5);
+        margin-top: -20px;
+        font-size: 25px;
+        text-align: center;
+        line-height: 80px;
+        color: #fff;
+        text-decoration: none;
+
+       }
+        .carousel .btn a.right{
+        	right: 0;
+        }
+        .carousel .btn a:hover{
+         background: rgba(0,0,0,0.5);
+        }
+        /*content*/
+        .content{
+        	width: 1000px;
+        	height: 300px;
+        	margin: 0 auto;
+        	margin-top: -20px;
+        	/*margin-bottom: 10px;*/
+        	background: pink;
+        	
+        }
+
+        .content .glyw{
+        	float: left;
+        	width: 249px;
+            height: 300px;
+            margin-top: 10px;
+            border-right: 1px blue dotted;
+        }
+        .content .glyw .yw{
+        	width: 249px;
+        	height: 50px;
+        	border-bottom: 2px dotted blue;
+        }
+        .content .glyw .yw h2{
+            float: left;
+        	height: 50px;
+        	margin-top: 10px;
+        }
+        .content .glyw .yw a{
+        	float: right;
+            margin: 15px;
+            margin-right:10px;
+        }
+         .content .glyw .yw2 {
+            width: 249px;
+            height: 250px;
+         }
+          .content .glyw .yw2 ul li a{
+          	float: left;
+          	font-weight: bold;
+          	margin: 5px;
+
+          }
+        .content .gjtd {
+        	float: left;
+        	width: 249px;
+            height: 300px;
+            margin-top: 10px;
+            border-right: 1px blue dotted;
+        }
+        .content .gjtd .td{
+        	width: 249px;
+        	height: 50px;
+        	border-bottom: 2px dotted blue;
+        }
+        .content .gjtd .td h2{
+        	float: left;
+        	height: 50px;
+        	margin-top: 10px;
+        }
+        .content .gjtd .td a{
+        	float: right;
+            margin: 15px;
+            margin-right:10px;
+        }
+        .content .gjtd .td2{
+        	width: 249px;
+        	height: 250px;
+        }
+        .content .gjtd .td2 ul li a{
+        	float: left;
+          	font-weight: bold;
+          	margin: 5px;
+        }
+        .content .gdxq {
+            float: left;
+        	width: 249px;
+            height: 300px;
+            margin-top: 10px;
+            border-right: 1px blue dotted;
+        }
+        .content .gdxq .xq{
+        	width: 249px;
+        	height: 50px;
+        	border-bottom: 2px dotted blue;
+        }
+        .content .gdxq .xq h2{
+        	float: left;
+        	height: 50px;
+        	margin-top: 10px;
+        }
+        .content .gdxq .xq a{
+        	float: right;
+            margin: 15px;
+            margin-right:10px;
+        }
+        .content .gdxq .xq2{
+        	width: 249px;
+        	height: 250px;
+        }
+         .content .gdxq .xq2 ul li a{
+         	float: left;
+          	font-weight: bold;
+          	margin: 5px;
+         }
+        .content .tzgg{
+        	float: left;
+        	width: 249px;
+            height: 300px;
+            margin-top: 10px;
+            border-right: 1px blue dotted;
+        }
+        .content .tzgg .gg{
+        	width: 249px;
+        	height: 50px;
+        	border-bottom: 2px dotted blue;
+        }
+        .content .tzgg .gg h2{
+            float: left;
+        	height: 50px;
+        	margin-top: 10px;
+        }
+        .content .tzgg .gg a{
+        	float: right;
+            margin: 15px;
+            margin-right:10px;
+        }
+        .content .tzgg .gg2{
+        	width: 249px;
+        	height: 250px;
+        }
+        .content .tzgg .gg2 ul li a{
+        	float: left;
+          	font-weight: bold;
+          	margin: 5px;
+        }
+        /*footer*/
+        .footer{
+        	width: 1000px;
+        	height: 50px;
+        	background: #000290;
+        	margin: 0 auto;
+        }
+        .footer h2{
+        	width: 600px;
+        	height: 30px;
+        	color: #fff;
+        	font-size: 16px;
+        	margin: 0 auto;
+        	margin-left: 60px;
+        }
+        
+ </style>
+</head>
+<body>
+	<!-- header -->
+	<div class="header">
+	<div class="logo"><img src="F:\毕业论文提交资料\画图/广东理工学院.png" alt="" />
+     <img src="F:\毕业论文提交资料\画图/广东理工6.png" width="200" heigth="100" alt="" />
+	</div>
+	<div class="header-r"><span>搜索</span>
+     <img src="F:\毕业论文提交资料\画图/搜索图片.png" alt="" />
+	</div>
+	</div>
+	<!-- daohang -->
+	<div class="daohang">
+      <ul>
+      	<li><a href="#">首页</a></li>
+      	<li><a href="#">推荐</a></li>
+      	<li><a href="#">校园</a></li>
+      	<li><a href="#">专业</a></li>
+      	<li><a href="#">国际</a></li>
+      	<li><a href="#">体育</a></li>
+      	<li><a href="#">阅读</a></li>
+      	<li><a href="#">视频</a></li>
+      </ul>
+	</div>
+	<!-- carousel -->
+	<div class="carousel">
+		<ul class="carouse-main">
+            <li class="current"><img src="F:\毕业论文提交资料\画图/广东理工3.png" width="1000" alt="" /></li>
+            
+		</ul>
+		<div class="btn">
+         <a href="#" class="left">&lt;</a>
+         <a href="#" class="right">&gt;</a>
+		</div>
+		</div>
+		<!-- content -->
+		<div class="content">
+          <div class="glyw">
+             <div class="yw">
+             <h2>广理要闻</h2>
+             <a href="#"><span>更多&gt</span></a>
+             </div>
+             <div class="yw2">
+               <ul>
+               	<li><a href="#">学院党委召开意识形态会议</a></li>
+               	<li><a href="#">我校获批设立广东省博士工作站</a></li>
+               	<li><a href="#">我校隆重举行2017-2018学年度学生表彰大会</a></li>
+               	<li><a href="#">我院2018级新生军训总结表彰大会圆满落幕</a></li>
+               	<li><a href="#">学院教职工文艺晚会圆满落幕</a></li>
+               </ul>
+             </div>
+          </div>
+          <div class="gjtd">
+          	<div class="td">
+           <h2>国际通道</h2>
+             <a href="#"><span>更多&gt</span></a>
+             </div>
+             <div class="td2">
+              <ul>
+              	<li><a href="#">中国GDP万亿俱乐部扩至17城</a></li>
+              	<li><a href="#">滴滴在压力下重组运营重点转向安全和用户体验</a></li>
+              	<li><a href="#">2018世界城市排行：北京首进四强，一城暴力拉升</a></li>
+              	<li><a href="#">朝鲜韩国南北友好握手</a></li>
+              	<li><a href="#">巴黎爆炸案</a></li>
+              </ul>
+             </div>
+          </div>
+          <div class="gdxq">
+          	<div class="xq">
+             <h2>更多兴趣</h2>
+             <a href="#"><span>更多&gt</span></a>
+             </div>
+             <div class="xq2">
+               <ul>
+               	<li><a href="#">央视记者曝武磊伤情严重，国足前锋左肩韧带断裂</a></li>
+               	<li><a href="#">宇航员在太空中是如何洗头的？刚把洗发水挤出来，尴尬瞬间发生了</a></li>
+               	<li><a href="#">交通违章被处罚 网上泄愤骂交警</a></li>
+               	<li><a href="#">吵归吵 不能崩！特朗普和普京又通了一个电话</a></li>
+               </ul>
+             </div>
+          </div>
+          <div class="tzgg">
+          	<div class="gg">
+             <h2>通知公告</h2>
+             <a href="#"><span>更多&gt</span></a>
+             </div>
+             <div class="gg2">
+               <ul>
+               	<li><a href="#">2019年本科招生专业目录</a></li>
+               	<li><a href="#">2019本科生体检表</a></li>
+               	<li><a href="#">家庭经济困难学生认定表下载</a></li>
+               	<li><a href="#">关于2018年期末考试时间安排</a></li>
+               	<li><a href="#">学院开展创文活动</a></li>
+               	<li><a href="#">思政部党支书开展扶贫慰问</a></li>
+               </ul>
+             </div>
+          </div>
+		</div>
+	</div>
+	<!-- footer -->
+	<div class="footer">
+     <h2>地址：广东省肇庆市祈福大道（碧桂园山湖城别墅旁） 电话：0758-8387888</h2>
+	</div>
+</body>
+</html>
